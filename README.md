@@ -6,9 +6,7 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,15 +23,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Resource Creation
+- Observing ICMP Traffic
+- Observing SSH Traffic
+- Observing DHCP, DNS
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0sEgtJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 1: ICMP Traffic
@@ -63,7 +61,7 @@ Stop the ping activity</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/16KxmFp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 2: SSH Traffic
@@ -77,7 +75,7 @@ Exit the SSH connection</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/V3CSRLT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 3: DHCP and DNS Traffic
