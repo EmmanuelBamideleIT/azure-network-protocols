@@ -30,9 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://imgur.com/0sEgtJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Section 1: ICMP Traffic
 
@@ -59,10 +57,10 @@ Observe the ICMP traffic in Wireshark and the command line Ping activity (should
 Stop the ping activity</p>
 
 <br />
-
 <p>
-<img src="https://imgur.com/16KxmFp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0sEgtJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Section 2: SSH Traffic
 
@@ -73,10 +71,10 @@ Type commands into the SSH connection and observe SSH traffic in Wireshark
 
 Exit the SSH connection</p>
 <br />
-
 <p>
-<img src="https://imgur.com/V3CSRLT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/16KxmFp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Section 3: DHCP and DNS Traffic
 
@@ -92,3 +90,6 @@ Use nslookup within the Windows 10 VM's command line to obtain IP addresses for 
 
 Observe the DNS traffic in Wireshark</p>
 <br />
+<p>
+<img src="https://imgur.com/V3CSRLT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
